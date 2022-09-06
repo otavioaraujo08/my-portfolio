@@ -9,12 +9,11 @@ export const Home = () => {
           src="https://avatars.githubusercontent.com/u/51797012?v=4"
           alt="Otávio Araujo"
           loading="lazy"
-          className="imagem"
+          className="image"
         />
 
         <Typography
           className="title"
-          style={{ fontSize: '1.8rem'}}
         >
           Olá, eu sou
           <span className="titleName">
@@ -22,7 +21,7 @@ export const Home = () => {
           </span>
         </Typography>
 
-        <Typography className="subtitle" fontSize="1.3rem">
+        <Typography className="subtitle">
           Desenvolvedor Web
         </Typography>
 
