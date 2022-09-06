@@ -11,7 +11,7 @@ a {
   background: #E8E8E9;
 }
 
-.imagem {
+.image {
   border-radius: 100%;
   width: 50%;
   border: #0F3F6E 5px solid;
@@ -20,6 +20,7 @@ a {
 
 .title {
   color: #C19256;
+  font-size: 2rem;
 }
 
 .titleName {
@@ -30,4 +31,24 @@ a {
 
 .subtitle {
   color: #336faa;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .image {
+    width: 40%;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .titleName {
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
 }
