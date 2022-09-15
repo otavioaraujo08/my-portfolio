@@ -1,0 +1,22 @@
+.box {
+  height: auto;
+  background-color: #002231;
+  color: #E4E8EA;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.abilities {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
