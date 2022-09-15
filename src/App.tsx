@@ -7,7 +7,7 @@ function App() {
     <>
       <Header/>
       <Home/>
-      <Abilities/>
+      <Abilities />
     </>
   )
 }

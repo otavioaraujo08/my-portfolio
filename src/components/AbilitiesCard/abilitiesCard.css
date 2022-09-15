@@ -2,7 +2,7 @@
 
 .card {
   width: 100%;
-  max-width: 22rem;
+  max-width: 24rem;
   max-height: 50%;
   margin: 2rem;
   display: flex;
@@ -11,8 +11,8 @@
 }
 
 .cardIcon {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   margin-right: 1rem;
 }
 
@@ -25,12 +25,12 @@
 }
 
 .cardTitle {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: black;
 }
 
 .cardDescription {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgb(139, 133, 133);
 }
