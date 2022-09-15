@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.card {
+  width: 100%;
+  max-width: 22rem;
+  max-height: 50%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.cardIcon {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.cardInformations {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.cardDescription {
+  font-size: 0.8rem;
+  color: rgb(139, 133, 133);
+}
