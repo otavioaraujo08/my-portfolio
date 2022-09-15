@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .box {
-  height: auto;
+  height: 50vh;
   background-color: #002231;
   color: #E4E8EA;
   display: flex;
@@ -15,10 +17,11 @@
 .abilities {
   font-size: 2rem;
   font-weight: 600;
-  margin-top: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .gallery {
+  margin-top: 3rem;
   max-width: 50rem;
   display: flex;
   align-items: center;
